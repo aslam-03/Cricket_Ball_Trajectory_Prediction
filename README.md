@@ -2,7 +2,7 @@
 
 This project uses YOLO (You Only Look Once) object detection and linear regression to track a cricket ball's trajectory and predict its impact point. It helps in making LBW (Leg Before Wicket) decisions based on ball movement.
 
-#Features
+Features
 
 Real-time ball detection using YOLO.
 
@@ -14,7 +14,7 @@ Live "OUT" or "NOT OUT" decision display.
 
 Smooth, continuous video playback without pauses.
 
-#Requirements
+Requirements
 
 Python 3.x
 
@@ -27,7 +27,7 @@ Ultralytics YOLO (pip install ultralytics)
 Scikit-learn (pip install scikit-learn)
 
 
-#How to Run
+How to Run
 
 Download the trained YOLO model (best.pt) and place it in the project directory.
 
@@ -39,7 +39,7 @@ python main.py
 
 Press 'Q' to exit the video window.
 
-#Output
+Output
 
 A red dot on detected ball positions.
 
@@ -49,7 +49,7 @@ A blue dot at the predicted impact point.
 
 "LBW Out!" or "Not Out" displayed live on the video.
 
-#Notes
+Notes
 
 Adjust the stumps_x value in the code to match the wicket position in your video.
 
