@@ -1,0 +1,6 @@
+train: C:/Users/ASLAM/Desktop/Bootcamp/drs1/cricket_ball_data/train
+val: C:/Users/ASLAM/Desktop/Bootcamp/drs1/cricket_ball_data/valid
+test: C:/Users/ASLAM/Desktop/Bootcamp/drs1/cricket_ball_data/test
+
+nc: 1  
+names: ["cricket ball"]  
